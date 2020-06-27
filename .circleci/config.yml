@@ -63,11 +63,12 @@ jobs:
       #- run: yarn gen-resume-pdf
 
       ## build
-      - run: yarn build --prod
+      #- run: yarn build --prod
+      - run: yarn prerender
 
       # It's quicker to build the app again in the deploy step
       # - store_artifacts:
-      #     path: ~/repo/dist/hanskerkhof
+      #     path: ~/repo/dist/hans-kerkhof
 
   deploy:
     docker:
