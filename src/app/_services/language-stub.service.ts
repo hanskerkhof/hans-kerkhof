@@ -14,7 +14,7 @@ export class LanguageStubService {
 
   constructor() {}
 
-  setLanguage(language) {
+  setLanguage(language): void {
     this.languageChangedSource.next(language);
   }
 }

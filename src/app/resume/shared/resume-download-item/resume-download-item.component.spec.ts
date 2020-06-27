@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { ResumeDownloadItemComponent } from './resume-download-item.component';
 import { ResumeMimeToFaIconPipe } from '../../pipes/resume-mime-to-fa-icon.pipe';
 import { ResumeFileSizePipe } from '../../pipes/resume-file-size.pipe';
-const resume: any = require('../../../../../mocks/resume-mock.json');
+const resume: any = require('../../../../../test/mocks/resume-mock.json');
 
 describe('ResumeDownloadItemComponent', () => {
   let component: ResumeDownloadItemComponent;

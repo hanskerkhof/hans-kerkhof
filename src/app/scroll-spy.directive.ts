@@ -1,4 +1,4 @@
-  import {
+import {
   Directive,
   Input,
   EventEmitter,
@@ -26,11 +26,12 @@ export class ScrollSpyDirective {
     @Inject(DOCUMENT) private doc: any,
     private scrollSpyService: ScrollSpyService,
     @Inject(PLATFORM_ID) private platformId: object
-  ) {}
+  ) {
+  }
 
   /* istanbul ignore next */
   @HostListener('window:scroll', ['$event'])
-  onWindowScroll() {
+  onWindowScroll(): void {
     const children = this.el.nativeElement.getElementsByTagName('section');
 
     for (const child of children) {
@@ -50,7 +51,7 @@ export class ScrollSpyDirective {
   }
 
   /* istanbul ignore next */
-  private getWindowScrollTop() {
+  private getWindowScrollTop(): number {
     return (window && window.pageYOffset) || 0;
   }
 }

@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { ResumeSectionsComponent } from './resume-sections.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-const resume: any = require('../../../../mocks/resume-mock.json');
+const resume: any = require('../../../../test/mocks/resume-mock.json');
 
 describe('ResumeSectionsComponent', () => {
   let component: ResumeSectionsComponent;

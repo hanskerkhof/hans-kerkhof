@@ -9,10 +9,10 @@ import {
 import {
   TranslateLoaderStub,
   TranslateServiceStub,
-} from '../../../../../stubs/translateStub';
+} from '../../../../../test/stubs/translateStub';
 import { ResumeFileSizePipe } from '../../pipes/resume-file-size.pipe';
 import { ResumeSafeUrlPipe } from '../../pipes/resume-safe-url.pipe';
-const resume: any = require('../../../../../mocks/resume-mock.json');
+const resume: any = require('../../../../../test/mocks/resume-mock.json');
 
 describe('ResumeBasicsComponent', () => {
   let component: ResumeBasicsComponent;

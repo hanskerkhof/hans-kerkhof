@@ -16,20 +16,13 @@ export class AppComponent {
   public currentSection: string;
 
   constructor(public languageService: LanguageService,
-              private resumeService: ResumeService,
-              private ngxMetaTagsService: NgxMetaTagsService) {
+              private resumeService: ResumeService) {
     this.resumeService.getResume().subscribe((resume) => {
       this.resume = resume;
-// console.log(this.resume);
-//       this.ngxMetaTagsService.setMetaFromConfig({
-//         description: this.resume.basics.summary,
-//         author: this.resume.basics.firstName
-//       });
-      // this.ngxMetaTagsService.setDefaultMeta();
     });
   }
 
-  onSectionChange(sectionId: string) {
-    this.currentSection = sectionId;
+  onSectionChange(sectionId: string): string {
+    return this.currentSection = sectionId;
   }
 }

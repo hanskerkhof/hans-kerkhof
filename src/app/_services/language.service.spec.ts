@@ -10,7 +10,7 @@ import * as moment from 'moment';
 import {
   TranslateLoaderStub,
   TranslateServiceStub,
-} from '../../../stubs/translateStub';
+} from '../../../test/stubs/translateStub';
 
 describe('LanguageService', () => {
   let service: LanguageService;

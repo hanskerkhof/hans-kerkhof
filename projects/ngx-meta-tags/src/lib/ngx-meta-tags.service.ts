@@ -38,23 +38,18 @@ export class NgxMetaTagsService {
               private titleService: Title,
               private metaService: Meta,
   ) {
-    console.log('***** NgxMetaTagsService instantiated', this.config);
-    // if (config) { console.log(config); }
-
-    // this.setDefaultMeta();
   }
 
   public setTitle(title): void {
     this.titleService.setTitle(title);
   }
 
-  public setMetaFromConfig(config: NgxMetaTagsConfig){
-    console.log(config);
+  public setMetaFromConfig(config: NgxMetaTagsConfig): void {
     this.config = {...this.config, ...config};
     this.setDefaultMeta();
   }
 
-  public setDefaultMeta() {
+  public setDefaultMeta(): void {
     this.setTitle(this.config.title);
     this.setPrimaryTags(
       '' + this.config.title,
@@ -70,7 +65,7 @@ export class NgxMetaTagsService {
     );
   }
 
-  public setPrimaryTags(title, description, author) {
+  public setPrimaryTags(title, description, author): void {
     const tags = [
       new MetaTag(this.titlePrimaryMeta, title, false),
       new MetaTag(this.descriptionPrimaryMeta, description, false),
@@ -100,11 +95,11 @@ export class NgxMetaTagsService {
     tags.forEach(siteTag => {
       // if (siteTag.value !== '') {
       //   console.log(siteTag);
-        if (siteTag.isFacebook) {
-          this.metaService.updateTag({property: siteTag.name, content: siteTag.value});
-        } else {
-          this.metaService.updateTag({name: siteTag.name, content: siteTag.value});
-        }
+      if (siteTag.isFacebook) {
+        this.metaService.updateTag({property: siteTag.name, content: siteTag.value});
+      } else {
+        this.metaService.updateTag({name: siteTag.name, content: siteTag.value});
+      }
       // } else {
       //   console.log('no value', siteTag);
       // }

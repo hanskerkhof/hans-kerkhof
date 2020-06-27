@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ResumeWorkComponent } from './resume-work.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { TranslateLoaderStub } from '../../../../../stubs/translateStub';
+import { TranslateLoaderStub } from '../../../../../test/stubs/translateStub';
 import { MomentModule } from 'ngx-moment';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 

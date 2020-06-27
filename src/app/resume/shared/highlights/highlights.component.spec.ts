@@ -3,8 +3,8 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { ResumeHighlightsComponent } from './highlights.component';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { TranslateLoaderStub } from '../../../../../stubs/translateStub';
-const resume: any = require('../../../../../mocks/resume-mock.json');
+import { TranslateLoaderStub } from '../../../../../test/stubs/translateStub';
+const resume: any = require('../../../../../test/mocks/resume-mock.json');
 
 describe('HighlightsComponent', () => {
   let component: ResumeHighlightsComponent;

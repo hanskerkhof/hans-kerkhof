@@ -47,15 +47,15 @@ export class NavComponent implements OnInit, OnDestroy {
     }
   }
 
-  toggleNav() {
+  toggleNav(): void {
     this.navOpen = !this.navOpen;
   }
 
-  resetNav() {
+  resetNav(): void {
     this.navOpen = false;
   }
 
-  ngOnDestroy() {
+  ngOnDestroy(): void {
     if (isPlatformBrowser(this.platformId)) {
       this.resizeSubscription$.unsubscribe();
     }

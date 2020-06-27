@@ -14,7 +14,7 @@ import { ScrollSpyDirective } from './scroll-spy.directive';
 import { NgxMetaTagsModule } from '../../projects/ngx-meta-tags/src/lib/ngx-meta-tags.module';
 import { environment } from '../environments/environment';
 
-export function createTranslateLoader(http: HttpClient) {
+export function createTranslateLoader(http: HttpClient): TranslateLoader {
   return new TranslateHttpLoader(http, `${environment.api.url}/i18n/`, '.json');
 }
 

@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Resume } from '../models/resume';
-const resume: Resume = require('../../../../mocks/resume-mock.json');
+import { Observable, of } from 'rxjs';
+const resume: Resume = require('../../../../test/mocks/resume-mock.json');
 
 @Injectable({
   providedIn: 'root',
@@ -8,7 +9,7 @@ const resume: Resume = require('../../../../mocks/resume-mock.json');
 export class ResumeStubService {
   constructor() {}
 
-  public get resume(): Resume {
-    return resume;
+  public getResume(): Observable<any> {
+    return of(resume);
   }
 }

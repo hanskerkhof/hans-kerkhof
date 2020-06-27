@@ -1,6 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
 import { Observable, Subject } from 'rxjs';
-import { DOCUMENT } from '@angular/common';
 
 export interface ScrollSpyInfo {
   active: Observable<ScrollItem | null>;
@@ -20,7 +19,7 @@ export class ScrollSpyService {
   public scrollSpy$ = this.scrollSpySubject.asObservable();
 
   /* istanbul ignore next */
-  public scrollSpyEvent(sectionId: string) {
+  public scrollSpyEvent(sectionId: string): void {
     this.scrollSpySubject.next(sectionId);
   }
 }

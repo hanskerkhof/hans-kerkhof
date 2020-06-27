@@ -4,7 +4,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ScrollSpyService } from './scroll-spy.service';
 
 @Component({
-  template: ` <div
+  template: `<div
     scrollSpy
     [spiedTags]="['section']"
     (sectionChange)="onSectionChange($event)"
@@ -17,7 +17,7 @@ import { ScrollSpyService } from './scroll-spy.service';
 class TestComponent {
   constructor(public scrollSpyService: ScrollSpyService) {}
 
-  onSectionChange(e) {}
+  onSectionChange(e): void {}
 }
 
 describe('ScrollSpyDirective', () => {

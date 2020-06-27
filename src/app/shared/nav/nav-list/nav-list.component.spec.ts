@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { NavListComponent } from './nav-list.component';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
-const resume: any = require('../../../../mocks/resume-mock.json');
+const resume: any = require('../../../../../test/mocks/resume-mock.json');
 
 describe('NavListComponent', () => {
   let component: NavListComponent;

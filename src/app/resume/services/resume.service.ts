@@ -11,7 +11,7 @@ export class ResumeService {
   public url: string;
 
   constructor(private http: HttpClient) {
-    if(environment.api.mode === 'local'){
+    if (environment.api.mode === 'local') {
       this.url = `${environment.api.url}/content/resume.json`;
     } else {
       this.url = `${environment.api.url}/resume.json`;

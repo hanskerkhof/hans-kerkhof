@@ -48,10 +48,10 @@ jobs:
           key: v1-dependencies-{{ checksum "yarn.lock" }}
 
       ## Lint
-      #- run: yarn lint
+      - run: yarn lint
 
       # run tests
-      #- run: yarn test
+      - run: yarn test
 
       # run e2e tests
       # - run: yarn e2e
@@ -65,7 +65,7 @@ jobs:
       ## build
       #- run: yarn build --prod
       ### Prerender does not work! Not enough memory available in the circleci container!
-      - run: yarn prerender
+      #- run: yarn prerender
 
       # It's quicker to build the app again in the deploy step
       # - store_artifacts:
@@ -92,7 +92,7 @@ jobs:
       #- run: yarn codecov
 
       #- run: yarn build --prod
-      - run: yarn deploy-aws-s3
+      #- run: yarn deploy-aws-s3
 
       - add_ssh_keys:
           fingerprints:

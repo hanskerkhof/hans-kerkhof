@@ -20,11 +20,11 @@ export class LanguageService {
     this.setDefaultLanguage();
   }
 
-  private setDefaultLanguage() {
+  private setDefaultLanguage(): void {
     this.setLanguage(this.language);
   }
 
-  public get availableLanguages() {
+  public get availableLanguages(): Array<string> {
     return ['nl', 'en'];
   }
 
@@ -40,7 +40,7 @@ export class LanguageService {
     return language;
   }
 
-  public setLanguage(language: string) {
+  public setLanguage(language: string): void {
     if (this.availableLanguages.includes(language)) {
       this.translateService.use(language).subscribe(() => {
         this.languageChangedSource.next(language);

@@ -13,7 +13,7 @@ describe('ResumeSafeUrlPipe', () => {
   });
 
   it('create an instance', () => {
-    sanitized = TestBed.get(DomSanitizer);
+    sanitized = TestBed.inject(DomSanitizer);
     pipe = new ResumeSafeUrlPipe(sanitized);
     expect(pipe).toBeTruthy();
   });

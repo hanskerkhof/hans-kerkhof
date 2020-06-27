@@ -11,7 +11,7 @@ export class AppShellNoRenderDirective implements OnInit {
     private templateRef: TemplateRef<any>,
     @Inject(PLATFORM_ID) private platformId) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     if (isPlatformServer(this.platformId)) {
       this.viewContainer.clear();
     }

@@ -14,7 +14,7 @@ export class NavItemComponent {
 
   constructor(protected gaService: GoogleAnalyticsService) {}
 
-  onClick(section: string) {
+  onClick(section: string): void {
     this.gaService.pageView(`/#${section}`, `section`, undefined, {});
     this.gaService.event(`#${section}`, 'section', null);
   }

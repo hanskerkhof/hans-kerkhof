@@ -21,7 +21,6 @@ export class NgxMetaTagsModule {
   }
 
   static forRoot(config: NgxMetaTagsConfig): ModuleWithProviders<NgxMetaTagsModule> {
-    console.log(config);
     return {
       ngModule: NgxMetaTagsModule,
       providers: [{provide: 'config', useValue: config}, NgxMetaTagsService

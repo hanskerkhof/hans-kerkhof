@@ -19,7 +19,7 @@ export class LanguageSwitchComponent implements OnInit {
     this.languages = this.languageService.availableLanguages;
   }
 
-  setLanguage(language: string) {
+  setLanguage(language: string): void {
     this.gaService.pageView(
       `/${language}`,
       `set-language-${language}`,

@@ -1,9 +1,9 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { NavComponent } from './nav.component';
-import { ScrollSpyService } from '../scroll-spy.service';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
+import { ScrollSpyService } from '../../scroll-spy.service';
 
-const resume: any = require('../../../mocks/resume-mock.json');
+const resume: any = require('../../../../test/mocks/resume-mock.json');
 
 describe('NavComponent', () => {
   let component: NavComponent;

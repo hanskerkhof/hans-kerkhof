@@ -9,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./resume.component.scss'],
   encapsulation: ViewEncapsulation.Emulated,
 })
-export class ResumeComponent implements OnInit{
+export class ResumeComponent implements OnInit {
   @Input() resume: Resume;
   @Input() language: string;
 
@@ -17,11 +17,10 @@ export class ResumeComponent implements OnInit{
               private translateService: TranslateService) {
   }
 
-  ngOnInit() {
-    console.log(this.resume);
+  ngOnInit(): void {
     this.ngxMetaTagsService.setMetaFromConfig({
       description: this.translateService.instant(this.resume.basics.summary),
-      author: (this.resume.basics.firstName + ' ' + this.resume.basics.middleName + ' ' + this.resume.basics.lastName).replace(/\s+/g,' ')
+      author: (this.resume.basics.firstName + ' ' + this.resume.basics.middleName + ' ' + this.resume.basics.lastName).replace(/\s+/g, ' ')
     });
   }
 }

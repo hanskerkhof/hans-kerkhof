@@ -15,7 +15,7 @@ export class ResumeDownloadItemComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onDownload(downloadItem: ResumeDownload) {
+  onDownload(downloadItem: ResumeDownload): void {
     this.gaService.pageView(
       `/downloads/${downloadItem.path}`,
       `download`,

@@ -3,7 +3,11 @@ import { ResumeComponent } from './resume.component';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { ResumeService } from './services/resume.service';
 import { ResumeStubService } from './services/resume-stub.service';
-const resume: any = require('../../../mocks/resume-mock.json');
+import { NgxMetaTagsModule } from '../../../projects/ngx-meta-tags/src/lib/ngx-meta-tags.module';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateLoaderStub } from '../../../test/stubs/translateStub';
+
+const resume: any = require('../../../test/mocks/resume-mock.json');
 
 describe('ResumeComponent', () => {
   let component: ResumeComponent;
@@ -12,7 +16,15 @@ describe('ResumeComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ResumeComponent],
-      providers: [{ provide: ResumeService, useClass: ResumeStubService }],
+      imports: [NgxMetaTagsModule.forRoot({}),
+        TranslateModule.forRoot({
+          loader: {
+            provide: TranslateLoader,
+            useValue: TranslateLoaderStub,
+          },
+        }),
+      ],
+      providers: [{provide: ResumeService, useClass: ResumeStubService}],
       schemas: [NO_ERRORS_SCHEMA],
     }).compileComponents();
   }));

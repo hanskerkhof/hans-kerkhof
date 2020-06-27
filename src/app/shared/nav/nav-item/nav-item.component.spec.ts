@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { NavItemComponent } from './nav-item.component';
-const resume: any = require('../../../../mocks/resume-mock.json');
+const resume: any = require('../../../../../test/mocks/resume-mock.json');
 
 describe('NavItemComponent', () => {
   let component: NavItemComponent;

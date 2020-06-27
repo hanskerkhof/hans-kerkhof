@@ -3,7 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { ResumeEducationComponent } from './resume-education.component';
 import { MomentModule } from 'ngx-moment';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { TranslateLoaderStub } from '../../../../../stubs/translateStub';
+import { TranslateLoaderStub } from '../../../../../test/stubs/translateStub';
 
 describe('ResumeEducationComponent', () => {
   let component: ResumeEducationComponent;
