@@ -90,7 +90,7 @@ jobs:
       #- run: yarn codecov
 
       #- run: yarn build --prod
-      #- run: yarn deploy-aws-s3
+      - run: yarn deploy-aws-s3
 
       - add_ssh_keys:
           fingerprints:
