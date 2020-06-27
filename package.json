@@ -1,6 +1,6 @@
 {
   "name": "hanskerkhof",
-  "version": "3.2.11",
+  "version": "3.2.12",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -14,7 +14,8 @@
     "prerender": "ng run hanskerkhof:prerender",
     "deploy-aws-s3-prev": "npm run prerender && aws s3 sync dist/hanskerkhof s3://hanskerkhof --delete --region eu-west-1 --acl public-read && aws s3 cp dist/hanskerkhof/index.html s3://hanskerkhof/index.html --metadata Cache-Control=max-age=0 --cache-control no-cache --expires 0 --acl public-read",
     "deploy-aws-s3-old": "npm --no-git-tag-version version patch && aws s3 sync src/assets/i18n s3://hanskerkhof/api/i18n --region eu-west-1 --acl public-read && aws s3 cp src/assets/content/resume.json s3://hanskerkhof/api/resume.json --region eu-west-1 --acl public-read && npm run prerender && aws s3 sync dist/hanskerkhof/browser s3://hanskerkhof --region eu-west-1 --acl public-read && aws s3 cp dist/hanskerkhof/browser/index.html s3://hanskerkhof/index.html --metadata Cache-Control=max-age=0 --cache-control no-cache --expires 0 --acl public-read",
-    "deploy-aws-s3": "scripts/deploy-aws-s3.sh"
+    "deploy-aws-s3": "scripts/deploy-aws-s3.sh",
+    "deploy-gh-pages": "ng deploy --no-silent --name='CI/CD' --email='info@netmatic.nl' --message='deploy-gh-pages [skip ci]\n\nSkip this commit on CircleCi '"
   },
   "private": true,
   "dependencies": {
