@@ -9,6 +9,10 @@ export const environment = {
   resumeSchemaVersion: require('../../node_modules/resume-schema/package.json').version,
   production: false,
   defaultLanguage: 'nl',
+  api: {
+    url: 'assets',
+    mode: 'local'
+  },
 };
 
 /*

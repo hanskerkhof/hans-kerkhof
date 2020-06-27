@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Resume } from '../models/resume';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
@@ -10,7 +11,11 @@ export class ResumeService {
   public url: string;
 
   constructor(private http: HttpClient) {
-    this.url = 'https://hanskerkhof.nl/api/resume.json';
+    if(environment.api.mode === 'local'){
+      this.url = `${environment.api.url}/content/resume.json`;
+    } else {
+      this.url = `${environment.api.url}/resume.json`;
+    }
   }
 
   public getResume(): Observable<any> {

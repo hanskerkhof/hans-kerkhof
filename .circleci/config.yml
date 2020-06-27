@@ -64,6 +64,7 @@ jobs:
 
       ## build
       #- run: yarn build --prod
+      ### Prerender does not work! Not enough memory available in the circleci container!
       - run: yarn prerender
 
       # It's quicker to build the app again in the deploy step

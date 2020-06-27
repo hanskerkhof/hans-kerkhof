@@ -12,9 +12,10 @@ import { ResumeModule } from './resume/resume.module';
 import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 import { ScrollSpyDirective } from './scroll-spy.directive';
 import { NgxMetaTagsModule } from '../../projects/ngx-meta-tags/src/lib/ngx-meta-tags.module';
+import { environment } from '../environments/environment';
 
 export function createTranslateLoader(http: HttpClient) {
-  return new TranslateHttpLoader(http, 'https://hanskerkhof.nl/api/i18n/', '.json');
+  return new TranslateHttpLoader(http, `${environment.api.url}/i18n/`, '.json');
 }
 
 @NgModule({

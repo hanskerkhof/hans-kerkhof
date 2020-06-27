@@ -5,4 +5,8 @@ export const environment = {
   resumeSchemaVersion: require('../../node_modules/resume-schema/package.json').version,
   production: true,
   defaultLanguage: 'nl',
+  api: {
+    url: 'https://hanskerkhof.nl/api',
+    mode: 'static'
+  },
 };
