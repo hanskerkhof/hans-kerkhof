@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Screenshot-2020-04-28-at-11.28.35.png",
+    "preview_xxs": {
+      "path": "assets/img/gallery/vattenfall-web-components/preview_xxs/Screenshot-2020-04-28-at-11.28.35.png",
+      "width": 467,
+      "height": 375
+    },
+    "preview_xs": {
+      "path": "assets/img/gallery/vattenfall-web-components/preview_xs/Screenshot-2020-04-28-at-11.28.35.png",
+      "width": 956,
+      "height": 768
+    },
+    "preview_s": {
+      "path": "assets/img/gallery/vattenfall-web-components/preview_s/Screenshot-2020-04-28-at-11.28.35.png",
+      "width": 1344,
+      "height": 1080
+    },
+    "preview_m": {
+      "path": "assets/img/gallery/vattenfall-web-components/preview_m/Screenshot-2020-04-28-at-11.28.35.png",
+      "width": 1992,
+      "height": 1600
+    },
+    "preview_l": {
+      "path": "assets/img/gallery/vattenfall-web-components/preview_l/Screenshot-2020-04-28-at-11.28.35.png",
+      "width": 2644,
+      "height": 2124
+    },
+    "preview_xl": {
+      "path": "assets/img/gallery/vattenfall-web-components/preview_xl/Screenshot-2020-04-28-at-11.28.35.png",
+      "width": 2644,
+      "height": 2124
+    },
+    "raw": {
+      "path": "assets/img/gallery/vattenfall-web-components/raw/Screenshot-2020-04-28-at-11.28.35.png",
+      "width": 2644,
+      "height": 2124
+    },
+    "dominantColor": "#8e8f8e"
+  }
+]

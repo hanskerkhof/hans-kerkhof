@@ -1,0 +1,13 @@
+<ng-container *ngFor="let item of section">
+  <!-- prettier-ignore -->
+  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+    <div class="resume-content">
+      <h3 class="mb-0">{{item.name[language] || item.name}}</h3>
+      <ul *ngIf="item.keywords.length">
+        <li *ngFor="let item of item.keywords">
+          {{item}}
+        </li>
+      </ul>
+    </div>
+  </div>
+</ng-container>

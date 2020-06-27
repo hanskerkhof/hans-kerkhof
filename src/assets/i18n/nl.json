@@ -1,0 +1,167 @@
+{
+  "resume": {
+    "present": "Heden",
+    "download": "Download",
+    "downloads": "Downloads",
+    "highlights": "Hoogtepunten",
+    "image": "Afbeelding",
+    "images": "Afbeeldingen",
+    "page": "pagina",
+    "pages": "pagina's",
+    "language": {
+      "dutch": "Nederlands",
+      "english": "English"
+    },
+    "nav": {
+      "basics": "Over",
+      "work": "Werk",
+      "education": "Opleiding",
+      "skills": "Vaardigheden",
+      "interests": "Interesses",
+      "awards": "Prijzen",
+      "volunteer": "Volunteer",
+      "languages": "Talen",
+      "publications": "Publicaties",
+      "references": "Referenties"
+    },
+    "basics": {
+      "summary": "Gedreven, creatieve developer met veel ervaring in front-end en back-end ontwikkeling. Heeft een passie voor geavanceerde web applicaties. Is uitstekend op de hoogte van laatste technieken, met focus op web front-end ontwikkeling. Javascript, Angular, Typescript, AngularJS, Node.js en API integraties.\n\nWerkt graag in een klein, wendbare multi-disciplinaire team, bij voorkeur met SCRUM. Kan op locatie en/of vanuit eigen plek opdrachten uitvoeren.\n\nBeschikbaar voor een nieuwe opdracht vanaf augustus 2020."
+    },
+    "work": {
+      "webDeveloper": {
+        "position": "Full stack developer",
+        "summary": "Api development, platformen, websites, apps, dashboards & SaaS\n\nPFM Footfall Intelligence, Sanomalearning, Malmberg uitgeverij, Cultuurfabriek, ID&T, Company webcast, webinar.nl, Belastingdienst, Pakhuis de Zwijger, Liveuitvaart.nl, online-inschrijven.nl, IDFA, Women-inc, Stedelijk Museum Amsterdam, Compant webcast, liveuitvaart.nl, Sanoma learning & Malmberg Uitgeverij, Vattenfall"
+      },
+      "vattenfall2020": {
+        "position": "Frontend developer",
+        "summary": "Vattenfall is met 2 miljoen klanten de grootste energie leverancier in Nederland. Vattenfall beheert een aantal digitale platformen waar klanten hun online hun energiezaken kunnen regelen.\n\nVanaf september 2018 ben ik verantwoordelijk geweest voor de migratie van de self-service applicatie naar Angular 8. Daarnaast heb ik Web Components geintroduceerd, waarmee o.a. op het open domain (vattenfall.nl) gemakkelijk complexere functionaliteit kan worden toegepast (micro frontends).\n\nInmiddels zijn er ruim 20 van deze web components ontwikkeld en beschikbaar, en is nu de de-facto standaard voor het ontwikkelen van functionele componenten in Angular. Voorbeelden zijn; Mijn verbruik, Nina Chatbot, factuur betalen en meterstanden doorgeven en verhuizen.\n\nIn mei 2020 begon de rebranding van NUON naar Vattenfall. Dit was de aanleiding om een generieke componenten library op te zetten waar alle digitale projecten binnen Vattenfall nu gebruik van maken. Op basis van het Vattenfall design system heb ik een library en demo applicatie gemaakt die, statische HTML/CSS componenten, Angular componenten en Web Components bevat. De library werkt volgens het 'donatie model'. Dit btekend dat ontwikkelaars uit de diverse teams bijdragen door componenten voor de library te ontwikkelen. Op deze manier hebben we razendsnel meer dan 100 componenten gebouwd.\n\nOp dit moment is de site vattenfall.nl geheel opgebouwd met deze componenten en maken de self-service (Angular) applicaties voor consumentenen en de zakelijke markt voor een groot deel gebruik van de SASS styling library en Angular componenten.",
+        "highlights.0": "Migratie self-service portal B2C from AngularJS naar Angular",
+        "highlights.2": "Inzage in verbruik voor consumenten",
+        "highlights.3": "CI/CD pipelines in Azure DevOps",
+        "highlights.4": "Bouw en oplevering Vattenfall Frontend Component library",
+        "highlights.5": "Werk aan B2B business portal"
+      },
+      "PFM2018": {
+        "position": "Full stack developer",
+        "summary": "PFM is gespecialiseerd in bezoekerstelsystemen, data analyse & interpretatie van data.\nPFM meet 24 uur per dag bezoekers in winkels & winkelcentra. Tot het portfolio van PFM behoren 35000 winkels, 450 shopping centra en meer dan 600 straten.\n\nVoor PFM heb ik een nieuwe backend (PHP Slim 3 Framework) en frontend (Angular) opgezet voor het beheer van sites en connected devices, monitoring van data feeds en een portaal voor rapportage aan klanten.\n\nVoor continuous integration heb ik gebruik gemaakt van CircleCi. Deployments worden gedaan naar Amazon Web Services (EC2, Load balancer, S3, Kinesis, Lambda, RDS, Cloudfront & Cloud formation). Access en Identity management is gerealiseerd met Auth0\n\nTechniek\nJavascript - Typescript - AngularJS - Angular - Angular-cli - HTML5 - CSS3 - LESS - Clarity Design system - ECharts - Google maps API - Auth0 - NPM - YARN - GIT - AWS : Cloud Formation, Kinesis, Lamda's, API Gateway, EC2, Load balancers, S3, RDS, Cloudfront - CircleCI - PHP Slim 3 Framework",
+        "highlights.0": "Setup Angular front-end and CI/CD pipelines",
+        "highlights.1": "Setup backend in PHP 7 met SLIM 3 framework",
+        "highlights.2": "Created repository voor models (based om schema's en typescript interfaces)",
+        "highlights.3": "Authenticatie voor klanten middels Auth0",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "sanoma2017": {
+        "position": "Frontend developer",
+        "summary": "Het merkenportfolio van Sanomalearning omvat vat leerbedrijven in 5 Europese landen, die behoren tot de beste in hun nationale markten.\n\nVoor alle projecten binnen die vijf operationele bedrijven wordt gebruikt gemaakt van generieke componenten voor hun digitale leeroplossingen en platformen.\n\nBinnen dit team ben ik verantwoordelijk voor de generieke frontend-componenten. Deze zijn ontwikkeld in AngularJS en Angular.\n\nDaarnaast heb ik bij Malmberg uitgeverij de frontend voor de SAM safety applicatie gebouwd, ook op basis van de generieke frontend-componenten.\n\nTechniek\nJavascript - Typescript - AngularJS - Angular - Angular-cli - HTML5 - CSS3 - LESS - SASS - YARN - GIT - AWS - CircleCI",
+        "highlights.0": "Generieke componenten library",
+        "highlights.1": "Bouw training app SAM Safety",
+        "highlights.2": "Migratie van AngularJS naar Angular",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "netmatic": {
+        "position": "Eigenaar",
+        "summary": "Online applicaties. Websites, game based learning, E-mail marketing & events\n\nHeineken, ROC, Grolsch, Cultuurfabriek, Belastingdienst, Lowlands, SNS, Cinekid, FNV Bondgenoten.",
+        "highlights.0": "",
+        "highlights.1": "",
+        "highlights.2": "",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "companywebcast2014": {
+        "position": "Full stack developer",
+        "summary": "Het unieke aan het gebruiksvriendelijke RoyalCast Webcastplatform is dat u zelf geen technische kennis en/of IT support nodig heeft om te starten met het aanmaken, uitzenden en opnemen van Webcasts.\n\nNadat de RoyalCast Encoder is geïnstalleerd en u een korte training heeft gevolgd, kunt u via de online RoyalCast Manager direct aan de slag. De RoyalCast Manager biedt u de mogelijkheid om online Webcasts te ‘schedulen’, te produceren en managementinformatie in te zien.\n\nBinnen enkele seconden is een Webcast aangemaakt en kunt u ervoor kiezen om deze te verrijken met bijvoorbeeld informatie over de spreker en het onderwerp. Tevens kunt u ook PowerPoint slides, bijlagen, documenten of links toevoegen aan een Webcast.\n\nNadat de Webcast is aangemaakt hoeft u deze alleen nog maar te starten en te stoppen.\n\nTechniek\njavascript - angularjs - HTML5 - CSS3 - LESS - NPM  - GRUNT - SVN - PHP",
+        "highlights.0": "Complete self-service oplossing voor het aanmaken en beheren van webcasts",
+        "highlights.1": "Notification service voor e-mail, iCal en SMS",
+        "highlights.2": "API integraties met het Company webcast API platform",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "companyWebcastWebinar2014": {
+        "position": "Frontend developer",
+        "summary": "Webcast portaal voor uitzendingen van vergaderingen door lokale overheden van meer dan 70 Nederlandse gemeentes. Webcast portal voor 70 gemeentes in één codebase. op basis van de 'wildcard' url wordt de juiste portal voor een klant gekozen.\n\nElke portaal heeft zijn eigen logo en kleuraccenten middels een CSS preprocessor thema.",
+        "highlights.0": "Bouw portaal voor webcasts met API integratie en zoekfuncties",
+        "highlights.1": "Thema voor afzonderlijke gemeentes (logo, kleur, etc.)",
+        "highlights.2": "Responsive design",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "liveUitvaart": {
+        "position": "Full stack Developer",
+        "summary": "Het eerste Webcastplatform dat het mogelijk maakt om op zeer grote schaal, sterk geautomatiseerd en tegen zeer lage kosten zelfstandig uitvaartdiensten te Webcasten. We zijn er trots op dat Liveuitvaart.nl de winnaar is van de International Funeral Award\n\nLiveUitvaart.nl is niet alleen een technisch platform die het live en/of ondemand uitzenden van uitvaartdiensten op grote schaal mogelijk maakt; het is ook een bewezen unieke methodiek die succes garandeert: immers 70% van de nabestaanden maakt gebruik van de mogelijkheid om via LiveUitvaart.nl live of achteraf de uitzending te bekijken.\n\nDaarnaast biedt LiveUitvaart.nl ook de mogelijkheid tot het downloaden van de uitvaartdienst (zelfs in HD kwaliteit); Deze download kan de DVD vervangen die vaak op locatie gemaakt moet worden. Het downloaden van de uitvaartdienst kan in combinatie met een geintegreerde webshop geleverd worden. Als uitvaartcentrum kunt u er voor zorgen dat nabestaanden gebruik kunnen maken van de unieke en innovatieve dienstverlening van LiveUitvaart.nl.",
+        "highlights.0": "Bouw website met API integraties",
+        "highlights.1": "Uitgebreide webast manager voor uitvaartcentra",
+        "highlights.2": "Geavanceerde mail en notificatie service",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "onlineInschrijven": {
+        "position": "Full stack Developer",
+        "summary": "Online-inschrijven is een online communicatietool, die veel kan en toch uitblinkt in gebruikersvriendelijkheid. Online-inschrijven ondersteunt alle facetten van je communicatietraject en biedt de mogelijkheid om formulieren en data centraal te beheren. Hierdoor wordt het communicatietraject overzichtelijker, flexibeler en efficiënter.\n\nOnline-inschrijven is een uitkomst voor organisatoren van evenementen, onderwijsinstellingen, ondernemers in het MKB, PR- en evenementenbureaus, festivals, culturele instellingen, verengingen en stichtingen.\n\nTechniek\njavascript - HTML5 - CSS3 - SASS - Angular - NPM - GRUNT - git - PHP",
+        "highlights.0": "Bouw frontend AngularJS en Backend PHP",
+        "highlights.1": "Geavanceerde form en campain editor",
+        "highlights.2": "Gepersonificeerde uitnodigingen, toegangscodes en responses",
+        "highlights.3": "API integraties o.a. met MailGun",
+        "highlights.4": "CI/CD met Amazon Web Services",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "athand2012": {
+        "position": "Contractor and partner",
+        "summary": "Game base learning, retail activatie, evenementen, apps, foto & video marketing.\n\nKPN, Volkswagen, Vodafone, Cultuurfabriek, Gemeente Almere, Orange, Belastingdienst, Nederlandse Spoorwegen, Samsung.",
+        "highlights.0": "",
+        "highlights.1": "",
+        "highlights.2": "",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "belastingdienst2011": {
+        "position": "Full stack developer",
+        "summary": "600 medewerkers van de Belastingdienst in divers samengestelde groepjes op expeditie in en rondom Rotterdam stad en haven, Arnhem en Amsterdam. De Belastingdienst wil graag een open gesprek met bedrijven en organisaties, met ondernemers, werknemers en burgers over zaken die voor hen en voor de Belastingdienst actueel en relevant zijn. Het gaat om onze jaarlijkse M-dag: de management- en medewerkerdag.\n\nTwee jaar geleden was deze formule in Den Haag en vorig jaar in Amsterdam een groot succes. Dit jaar gaan we op 11 april in en rondom Rotterdam stad en haven ontdekken wat er speelt bij de bijna 200 organisaties die we bezoeken. Een nieuw element dit jaar is dat een aantal routes gedurende de dag in het teken van één thema staan. Denk hierbij aan Handhaving en Toezicht, Samenwerking, maar ook Stadsontwikkeling en Nieuwe economieën.\n\nTechniek\njavascript - handlebars - HTML5 - CSS3 - LESS - NPM - GRUNT - SVN - PHP",
+        "highlights.0": "Mobile friendly applicatie",
+        "highlights.1": "Automatisch meest optimale routes berekenen",
+        "highlights.2": "Communicatie platform en route hulp tijdens 'expeditie' dagen",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "teacher2002": {
+        "position": "Docent",
+        "summary": "HKU Hilversum Interaction design, Gerrit Rietveld academie",
+        "highlights.0": "",
+        "highlights.1": "",
+        "highlights.2": "",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "tv30002001": {
+        "position": "Eigenaar",
+        "summary": "Full service internet buro. Pioneer op het gebied van websites, events, broadcasting & online applicaties.\n\nHeineken, ROC, Cultuurfabriek, Lowlands, Delta Lloyd, Pink Roccade, Nationale Nederlanden",
+        "highlights.0": "",
+        "highlights.1": "",
+        "highlights.2": "",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      }
+    }
+  }
+}

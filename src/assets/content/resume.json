@@ -1,0 +1,507 @@
+{
+  "meta": {
+    "version": "3.2.2",
+    "lastModified": "2020-05-13",
+    "title": "Hans Kerkhof",
+    "sections": [
+      {
+        "sectionId": "basics",
+        "hidden": false
+      },
+      {
+        "sectionId": "work",
+        "hidden": false
+      },
+      {
+        "sectionId": "education",
+        "hidden": false
+      },
+      {
+        "sectionId": "volunteer",
+        "hidden": true
+      },
+      {
+        "sectionId": "skills",
+        "hidden": false
+      },
+      {
+        "sectionId": "interests",
+        "hidden": true
+      },
+      {
+        "sectionId": "languages",
+        "hidden": false
+      },
+      {
+        "sectionId": "awards",
+        "hidden": true
+      },
+      {
+        "sectionId": "publications",
+        "hidden": true
+      },
+      {
+        "sectionId": "references",
+        "hidden": true
+      }
+    ]
+  },
+  "basics": {
+    "name": "Hans Kerkhof",
+    "label": "Web developer",
+    "picture": "https://hanskerkhof.nl/assets/images/hanskerkhof-square.jpg",
+    "email": "hans@netmatic.nl",
+    "phone": "+31 (0) 653408304",
+    "website": "https://www.hanskerkhof.nl",
+    "summary": "resume.basics.summary",
+    "location": {
+      "address": "Rooseveltlaan 221/3",
+      "postalCode": "1079 AT",
+      "city": "Amsterdam",
+      "countryCode": "NL",
+      "region": "NH"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "hanskerkhof",
+        "url": "http://github.com/hanskerkhof"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Hans Kerkhof",
+        "url": "https://www.linkedin.com/in/hans-kerkhof-63729b/"
+      },
+      {
+        "network": "WhatsApp",
+        "username": "Hans Kerkhof",
+        "url": "https://wa.me/31653408304"
+      },
+      {
+        "network": "Skype",
+        "username": "Hans Kerkhof",
+        "url": "skype:hanskerkhof?chat"
+      }
+    ],
+    "firstName": "Hans",
+    "middleName": "",
+    "lastName": "Kerkhof",
+    "downloads": [
+      {
+        "name": "Hans Kerkhof CV april 2020 3 pagina's",
+        "type": "application/pdf",
+        "date": "2020-4-27",
+        "path": "assets/downloads/Hans-Kerkhof_Web-developer-resume-2020-04-27.pdf",
+        "size": 405347,
+        "language": "nl",
+        "id": "resume-nl-pdf"
+      },
+      {
+        "name": "Hans Kerkhof CV april 2020 3 pages",
+        "type": "application/pdf",
+        "date": "2020-4-27",
+        "path": "assets/downloads/Hans-Kerkhof_Web-developer-resume-2020-04-27.pdf",
+        "size": 405347,
+        "language": "en",
+        "id": "resume-en-pdf"
+      },
+      {
+        "name": "Hans Kerkhof CV april 2020 deze site 7 pagina's",
+        "type": "application/pdf",
+        "date": "2020-5-13",
+        "path": "assets/downloads/Hans-Kerkhof_Web-developer-site-2020-04-27.pdf",
+        "size": 131221,
+        "language": "nl",
+        "id": "resume-site-nl-pdf"
+      },
+      {
+        "name": "Hans Kerkhof CV april 2020 this site 7 pages",
+        "type": "application/pdf",
+        "date": "2020-5-13",
+        "path": "assets/downloads/Hans-Kerkhof_Web-developer-site-2020-04-27.pdf",
+        "size": 127184,
+        "language": "en",
+        "id": "resume-site-en-pdf"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Freelance web developer",
+      "position": "resume.work.webDeveloper.position",
+      "website": "",
+      "startDate": "2010-09-01",
+      "endDate": "",
+      "summary": "resume.work.webDeveloper.summary",
+      "highlights": [
+        "resume.work.webDeveloper.highlights.0",
+        "resume.work.webDeveloper.highlights.1",
+        "resume.work.webDeveloper.highlights.2",
+        "resume.work.webDeveloper.highlights.3",
+        "resume.work.webDeveloper.highlights.4",
+        "resume.work.webDeveloper.highlights.5",
+        "resume.work.webDeveloper.highlights.6"
+      ],
+      "galleries": []
+    },
+    {
+      "company": "Vattenfall",
+      "position": "resume.work.vattenfall2020.position",
+      "website": "https://www.vattenfall.nl/",
+      "startDate": "2018-09-01",
+      "endDate": "2020-04-01",
+      "summary": "resume.work.vattenfall2020.summary",
+      "highlights": [
+        "resume.work.vattenfall2020.highlights.0",
+        "resume.work.vattenfall2020.highlights.1",
+        "resume.work.vattenfall2020.highlights.2",
+        "resume.work.vattenfall2020.highlights.3",
+        "resume.work.vattenfall2020.highlights.4",
+        "resume.work.vattenfall2020.highlights.5",
+        "resume.work.vattenfall2020.highlights.6"
+      ],
+      "galleries": ["vattenfall-web-components", "vattenfall-library"]
+    },
+    {
+      "company": "PFM Footfall Intelligence",
+      "position": "resume.work.PFM2018.position",
+      "website": "https://www.pfm-footfall.com",
+      "startDate": "2018-01-01",
+      "endDate": "2018-07-01",
+      "summary": "resume.work.PFM2018.summary",
+      "highlights": [
+        "resume.work.PFM2018.highlights.0",
+        "resume.work.PFM2018.highlights.1",
+        "resume.work.PFM2018.highlights.2",
+        "resume.work.PFM2018.highlights.3",
+        "resume.work.PFM2018.highlights.4",
+        "resume.work.PFM2018.highlights.5",
+        "resume.work.PFM2018.highlights.6"
+      ],
+      "galleries": ["pfm-2018"]
+    },
+    {
+      "company": "Sanoma learning & Malmberg Uitgeverij",
+      "position": "resume.work.sanoma2017.position",
+      "website": "https://sanoma.com/learning",
+      "startDate": "2014-12-01",
+      "endDate": "2017-12-01",
+      "summary": "resume.work.sanoma2017.summary",
+      "highlights": [
+        "resume.work.sanoma2017.highlights.0",
+        "resume.work.sanoma2017.highlights.1",
+        "resume.work.sanoma2017.highlights.2",
+        "resume.work.sanoma2017.highlights.3",
+        "resume.work.sanoma2017.highlights.4",
+        "resume.work.sanoma2017.highlights.5"
+      ],
+      "galleries": ["sanoma-library", "sanoma-sam-safety"]
+    },
+    {
+      "company": "Netmatic",
+      "position": "resume.work.netmatic.position",
+      "website": "",
+      "startDate": "2001-07-01",
+      "endDate": "",
+      "summary": "resume.work.netmatic.summary",
+      "highlights": [
+        "resume.work.netmatic.highlights.0",
+        "resume.work.netmatic.highlights.1",
+        "resume.work.netmatic.highlights.2",
+        "resume.work.netmatic.highlights.3",
+        "resume.work.netmatic.highlights.4",
+        "resume.work.netmatic.highlights.5",
+        "resume.work.netmatic.highlights.6"
+      ],
+      "galleries": []
+    },
+    {
+      "company": "Company Webcast",
+      "position": "resume.work.companywebcast2014.position",
+      "website": "https://www.companywebcast.nl",
+      "startDate": "2012-02-01",
+      "endDate": "2014-07-31",
+      "summary": "resume.work.companywebcast2014.summary",
+      "highlights": [
+        "resume.work.companywebcast2014.highlights.0",
+        "resume.work.companywebcast2014.highlights.1",
+        "resume.work.companywebcast2014.highlights.2",
+        "resume.work.companywebcast2014.highlights.3",
+        "resume.work.companywebcast2014.highlights.4",
+        "resume.work.companywebcast2014.highlights.5",
+        "resume.work.companywebcast2014.highlights.6"
+      ],
+      "galleries": ["cwc-webinar-2013", "cwc-webinar-2014"]
+    },
+    {
+      "company": "Company Webcast",
+      "position": "resume.work.companyWebcastWebinar2014.position",
+      "website": "https://www.webinar.nl/",
+      "startDate": "2014-08-01",
+      "endDate": "2014-10-24",
+      "summary": "resume.work.companyWebcastWebinar2014.summary",
+      "highlights": [
+        "resume.work.companyWebcastWebinar2014.highlights.0",
+        "resume.work.companyWebcastWebinar2014.highlights.1",
+        "resume.work.companyWebcastWebinar2014.highlights.2",
+        "resume.work.companyWebcastWebinar2014.highlights.3",
+        "resume.work.companyWebcastWebinar2014.highlights.4",
+        "resume.work.companyWebcastWebinar2014.highlights.5",
+        "resume.work.companyWebcastWebinar2014.highlights.6"
+      ],
+      "galleries": ["cwc-webcast-2014"]
+    },
+    {
+      "company": "Liveuitvaart.nl",
+      "position": "resume.work.liveUitvaart.position",
+      "website": "http://www.liveuitvaart.nl/",
+      "startDate": "2009-01-01",
+      "endDate": "",
+      "summary": "resume.work.liveUitvaart.summary",
+      "highlights": [
+        "resume.work.liveUitvaart.highlights.0",
+        "resume.work.liveUitvaart.highlights.1",
+        "resume.work.liveUitvaart.highlights.2",
+        "resume.work.liveUitvaart.highlights.3",
+        "resume.work.liveUitvaart.highlights.4",
+        "resume.work.liveUitvaart.highlights.5",
+        "resume.work.liveUitvaart.highlights.6"
+      ],
+      "galleries": ["cwc-liveuitvaart-2010", "cwc-liveuitvaart-2014"]
+    },
+    {
+      "company": "online-inschrijven.nl",
+      "position": "resume.work.onlineInschrijven.position",
+      "website": "",
+      "startDate": "2002-05-01",
+      "endDate": "2020-02-01",
+      "summary": "resume.work.onlineInschrijven.summary",
+      "highlights": [
+        "resume.work.onlineInschrijven.highlights.0",
+        "resume.work.onlineInschrijven.highlights.1",
+        "resume.work.onlineInschrijven.highlights.2",
+        "resume.work.onlineInschrijven.highlights.3",
+        "resume.work.onlineInschrijven.highlights.4",
+        "resume.work.onlineInschrijven.highlights.5",
+        "resume.work.onlineInschrijven.highlights.6"
+      ],
+      "galleries": ["online-inschrijven"]
+    },
+    {
+      "company": "Athand",
+      "position": "resume.work.athand2012.position",
+      "website": "",
+      "startDate": "2009-09-01",
+      "endDate": "2012-04-30",
+      "summary": "resume.work.athand2012.summary",
+      "highlights": [
+        "resume.work.athand2012.highlights.0",
+        "resume.work.athand2012.highlights.1",
+        "resume.work.athand2012.highlights.2",
+        "resume.work.athand2012.highlights.3",
+        "resume.work.athand2012.highlights.4",
+        "resume.work.athand2012.highlights.5",
+        "resume.work.athand2012.highlights.6"
+      ],
+      "galleries": []
+    },
+    {
+      "company": "Belastingdienst",
+      "position": "resume.work.belastingdienst2011.position",
+      "website": "",
+      "startDate": "2011-02-01",
+      "endDate": "2014-06-01",
+      "summary": "resume.work.belastingdienst2011.summary",
+      "highlights": [
+        "resume.work.belastingdienst2011.highlights.0",
+        "resume.work.belastingdienst2011.highlights.1",
+        "resume.work.belastingdienst2011.highlights.2",
+        "resume.work.belastingdienst2011.highlights.3",
+        "resume.work.belastingdienst2011.highlights.4",
+        "resume.work.belastingdienst2011.highlights.5",
+        "resume.work.belastingdienst2011.highlights.6"
+      ],
+      "galleries": ["belastingdienst-mdag-2014"]
+    },
+    {
+      "company": "Onderwijs",
+      "position": "resume.work.teacher2002.position",
+      "website": "",
+      "startDate": "1998-07-01",
+      "endDate": "2002-07-01",
+      "summary": "resume.work.teacher2002.summary",
+      "highlights": [
+        "resume.work.teacher2002.highlights.0",
+        "resume.work.teacher2002.highlights.1",
+        "resume.work.teacher2002.highlights.2",
+        "resume.work.teacher2002.highlights.3",
+        "resume.work.teacher2002.highlights.4",
+        "resume.work.teacher2002.highlights.5",
+        "resume.work.teacher2002.highlights.6"
+      ],
+      "galleries": []
+    },
+    {
+      "company": "Tv3000",
+      "position": "resume.work.tv30002001.position",
+      "website": "",
+      "startDate": "1997-03-01",
+      "endDate": "2001-07-01",
+      "summary": "resume.work.tv30002001.summary",
+      "highlights": [
+        "resume.work.tv30002001.highlights.0",
+        "resume.work.tv30002001.highlights.1",
+        "resume.work.tv30002001.highlights.2",
+        "resume.work.tv30002001.highlights.3",
+        "resume.work.tv30002001.highlights.4",
+        "resume.work.tv30002001.highlights.5",
+        "resume.work.tv30002001.highlights.6"
+      ],
+      "galleries": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "AKI Enschede",
+      "area": "Nieuwe media / Mediakunst",
+      "studyType": "Bachelor of Arts",
+      "startDate": "1984-09-01",
+      "endDate": "1990-07-01",
+      "courses": []
+    }
+  ],
+  "volunteer": [],
+  "skills": [
+    {
+      "name": "Expertise",
+      "level": "Master",
+      "keywords": [
+        "Web development",
+        "SaaS",
+        "Self service",
+        "Advanced applications",
+        "API integrations",
+        "Micro Front-ends",
+        "Web Components"
+      ]
+    },
+    {
+      "name": "Soft skills",
+      "level": "Master",
+      "keywords": [
+        "Teamspeler",
+        "Brengt energie in een project",
+        "Zelfstarter",
+        "Vind creatieve oplossingen",
+        "Open en deelt graag kennis",
+        "Leergierig",
+        "Belbin; Plant (21%), Brononderzoeker (19%) en Vormer (13%)"
+      ]
+    },
+    {
+      "name": "Preferred Environment",
+      "level": "Master",
+      "keywords": ["macOS", "PhpStorm", "Git", "Node.js"]
+    },
+    {
+      "name": "Languages",
+      "level": "Master",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "SASS",
+        "Javascript",
+        "Typescript",
+        "SQL",
+        "Bash",
+        "PHP"
+      ],
+      "displayLogos": true,
+      "imageBaseUrl": "assets/images/skills/languages"
+    },
+    {
+      "name": "Frameworks",
+      "level": "Master",
+      "keywords": [
+        "Angular",
+        "AngularJS",
+        "Express.js",
+        "Jest",
+        "Cypress",
+        "Bootstrap",
+        "Strapi"
+      ],
+      "displayLogos": true,
+      "imageBaseUrl": "assets/images/skills/frameworks"
+    },
+    {
+      "name": "Platforms",
+      "level": "Master",
+      "keywords": [
+        "Azure DevOps",
+        "AWS",
+        "CircleCi",
+        "Auth0",
+        "MailGun",
+        "NPM",
+        "Github",
+        "LAMP",
+        "MEAN",
+        "Docker",
+        "Vagrant"
+      ],
+      "displayLogos": true,
+      "imageBaseUrl": "assets/images/skills/platforms"
+    },
+    {
+      "name": "Tools",
+      "level": "Master",
+      "keywords": [
+        "Git",
+        "PhpStorm",
+        "Visual Studio Code",
+        "NPM",
+        "Yarn",
+        "Chrome devtools"
+      ]
+    },
+    {
+      "name": "Libraries/API's",
+      "level": "Master",
+      "keywords": [
+        "jQuery",
+        "Node.js",
+        "Google maps API",
+        "Facebook developers",
+        "NGXS",
+        "JWT",
+        "Websockets",
+        "eCharts"
+      ],
+
+      "displayLogos": true,
+      "imageBaseUrl": "assets/images/skills/libraries"
+    },
+    {
+      "name": "Storage",
+      "level": "Master",
+      "keywords": ["Mysql", "SQlite", "FireBase", "Amazon S3"],
+      "displayLogos": true,
+      "imageBaseUrl": "assets/images/skills/storage"
+    }
+  ],
+  "interests": [],
+  "languages": [
+    {
+      "language": "Dutch",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "references": []
+}

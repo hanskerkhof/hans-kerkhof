@@ -1,0 +1,18 @@
+<ng-container *ngFor="let item of section">
+  <!-- prettier-ignore -->
+  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+    <div class="resume-content">
+      <h3 class="mb-0">{{item.studyType[language] || item.studyType}} · {{ item.institution }}</h3>
+      <div class="subheading mb-3">{{ item.area[language] || item.area }}</div>
+    </div>
+    <div class="resume-date text-md-right">
+      <span class="text-primary">
+        <!-- prettier-ignore -->
+        {{item.startDate | amLocale: language | amDateFormat: "MMMM YYYY"}}
+        -
+        <!-- prettier-ignore -->
+        {{item.endDate | amLocale: language | amDateFormat: "MMMM YYYY"}}
+      </span>
+    </div>
+  </div>
+</ng-container>

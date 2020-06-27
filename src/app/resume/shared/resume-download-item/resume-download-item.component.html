@@ -1,0 +1,9 @@
+<div *ngIf="download.language === language">
+  <div class="pb-3">
+    <i class="fa fa-2x {{ download.type | resumeMimeToFaIcon }}"></i>&nbsp;
+    <a (click)="onDownload(download)" [href]="download.path" target="_blank">{{
+      download.name
+    }}</a>
+    ({{ download.size | resumeFileSize }})
+  </div>
+</div>

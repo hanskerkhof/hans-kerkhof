@@ -1,0 +1,9 @@
+<a
+  *ngIf="!item.hidden"
+  [attr.data-test-nav-link]="item.sectionId"
+  class="nav-link active"
+  [ngClass]="{ active: selectedId === item.sectionId }"
+  [href]="'#' + item.sectionId"
+  [translate]="'resume.nav.' + item.sectionId"
+  (click)="onClick(item.sectionId)"
+></a>

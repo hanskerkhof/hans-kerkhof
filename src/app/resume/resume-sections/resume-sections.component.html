@@ -1,0 +1,67 @@
+<ng-container *ngFor="let section of resume.meta.sections">
+  <section
+    class="resume-section p-3 p-lg-5 d-flex justify-content-center"
+    *ngIf="section.sectionId !== 'basics' && !section.hidden"
+    [attr.id]="section.sectionId"
+  >
+    <div class="w-100">
+      <h2 class="mb-5" [translate]="'resume.nav.' + section.sectionId"></h2>
+      <ng-container [ngSwitch]="section.sectionId">
+        <app-resume-work
+          [language]="language"
+          [sectionId]="section.sectionId"
+          [section]="resume[section.sectionId]"
+          *ngSwitchCase="'work'"
+        ></app-resume-work>
+        <app-resume-education
+          [language]="language"
+          [sectionId]="section.sectionId"
+          [section]="resume[section.sectionId]"
+          *ngSwitchCase="'education'"
+        ></app-resume-education>
+        <app-resume-volunteer
+          [language]="language"
+          [sectionId]="section.sectionId"
+          [section]="resume[section.sectionId]"
+          *ngSwitchCase="'volunteer'"
+        ></app-resume-volunteer>
+        <app-resume-skills
+          [language]="language"
+          [sectionId]="section.sectionId"
+          [section]="resume[section.sectionId]"
+          *ngSwitchCase="'skills'"
+        ></app-resume-skills>
+        <app-resume-interests
+          [language]="language"
+          [sectionId]="section.sectionId"
+          [section]="resume[section.sectionId]"
+          *ngSwitchCase="'interests'"
+        ></app-resume-interests>
+        <app-resume-languages
+          [language]="language"
+          [sectionId]="section.sectionId"
+          [section]="resume[section.sectionId]"
+          *ngSwitchCase="'languages'"
+        ></app-resume-languages>
+        <app-resume-awards
+          [language]="language"
+          [sectionId]="section.sectionId"
+          [section]="resume[section.sectionId]"
+          *ngSwitchCase="'awards'"
+        ></app-resume-awards>
+        <app-resume-publications
+          [language]="language"
+          [sectionId]="section.sectionId"
+          [section]="resume[section.sectionId]"
+          *ngSwitchCase="'publications'"
+        ></app-resume-publications>
+        <app-resume-references
+          [language]="language"
+          [sectionId]="section.sectionId"
+          [section]="resume[section.sectionId]"
+          *ngSwitchCase="'references'"
+        ></app-resume-references>
+      </ng-container>
+    </div>
+  </section>
+</ng-container>

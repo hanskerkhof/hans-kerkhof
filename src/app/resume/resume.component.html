@@ -1,0 +1,13 @@
+<!--<pre>{{language}}</pre>-->
+<!--<pre>{{resume | json}}</pre>-->
+<app-resume-basics
+  *ngIf="resume"
+  [sectionId]="'basics'"
+  [section]="resume['basics']"
+  [language]="language"
+></app-resume-basics>
+<app-resume-sections
+  *ngIf="resume"
+  [resume]="resume"
+  [language]="language"
+></app-resume-sections>

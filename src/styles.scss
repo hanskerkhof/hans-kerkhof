@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+//@import url("//fonts.googleapis.com/css?family=Lato:400,700,400italic");
+//@import url("//fonts.googleapis.com/css?family=Playfair+Display:900italic,900,700italic,700");
+@import url("//fonts.googleapis.com/css?family=Muli:400,400i,800,800i");
+@import url("//fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700");
+
+//<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+//<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+
+//$font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import "scss/variables.scss";
+@import "scss/mixins.scss";
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "scss/global.scss";
+@import "scss/nav.scss";
+@import "scss/resume-item.scss";
+@import "scss/bootstrap-overrides.scss";
+
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+
+// All
+// @import "node_modules/bootstrap/scss/bootstrap";
+
+//// Specific
+//// Required
+//@import "node_modules/bootstrap/scss/functions";
+//@import "node_modules/bootstrap/scss/variables";
+//@import "node_modules/bootstrap/scss/mixins";
+//
+//// Optional
+//@import "node_modules/bootstrap/scss/reboot";
+//@import "node_modules/bootstrap/scss/type";
+//@import "node_modules/bootstrap/scss/images";
+//@import "node_modules/bootstrap/scss/code";
+//@import "node_modules/bootstrap/scss/grid";
+//@import "node_modules/bootstrap/scss/buttons";

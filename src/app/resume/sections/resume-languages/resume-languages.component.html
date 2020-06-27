@@ -1,0 +1,9 @@
+<ng-container *ngFor="let item of section">
+  <!-- prettier-ignore -->
+  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+    <div class="resume-content">
+      <h3 class="mb-0">{{item.language[language] || item.language}}</h3>
+      <div class="subheading mb-3">{{ item.fluency[language] || item.fluency }}</div>
+    </div>
+  </div>
+</ng-container>

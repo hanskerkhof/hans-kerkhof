@@ -1,0 +1,171 @@
+{
+  "resume": {
+    "present": "Present",
+    "download": "Download",
+    "downloads": "Downloads",
+    "highlights": "Highlights",
+    "image": "Image",
+    "images": "Images",
+    "page": "pagina",
+    "pages": "pages",
+    "language": {
+      "dutch": "Dutch",
+      "english": "Engels"
+    },
+    "nav": {
+      "basics": "About",
+      "work": "Work",
+      "education": "Education",
+      "skills": "Skills",
+      "interests": "Interests",
+      "awards": "Awards",
+      "volunteer": "Volunteer",
+      "languages": "Languages",
+      "publications": "Publications",
+      "references": "References"
+    },
+    "basics": {
+      "summary": "Driven, creative developer with a lot of experience in front-end and back-end development. Has a passion for advanced web applications. Is excellent up-to-date with the latest techniques, with focus on web front-end development. Javascript, Angular , Typescript, AngularJS, Node.js and API integrations.\n\nEnjoys working in a small, agile multi-disciplinary team, preferably with SCRUM. Can carry out assignments on location and/or from own location.\n\nAvailable for a new assignment from August 2020."
+    },
+    "work": {
+      "webDeveloper": {
+        "position": "Full stack developer",
+        "summary": "API development, platforms, websites, apps, dashboards & SaaS\n\nPFM Footfall Intelligence, Sanomalearning, Malmberg publisher, Cultuurfabriek, ID&T, Company webcast, webinar.nl, Belastingdienst, Pakhuis de Zwijger, Liveuitvaart.nl, online-inekenen.nl, IDFA, Women-inc, Stedelijk Museum Amsterdam, Compant webcast, live funeral .nl, Sanoma learning & Malmberg Publisher, Vattenfall"
+      },
+      "vattenfall2020": {
+        "position": "Frontend developer",
+        "summary": "Vattenfall is the largest energy supplier in the Netherlands with 2 million customers. Vattenfall manages a number of digital platforms where customers can manage their energy affairs online.\n\nI have been responsible for the migration of the self- service application to Angular 8. In addition, I introduced Web Components, with which, for example, the open domain (vattenfall.nl) can easily apply more complex functionality (micro frontends).\n\nCurrently, more than 20 of these web components have been developed and available. , and is now the de-facto standard for developing functional components in Angular, such as: My usage, Nina Chatbot, bill payment and meter reading and moving.\n\nIn May 2020 the rebranding started from NUON to Vattenfall. was the reason for setting up a generic component library that all digital projects within Vattenfall now use. design system I made a library and demo application that contains static HTML / CSS components, Angular components and Web Components. The library works according to the 'donation model'. This means that developers from the various teams contribute by developing components for the library. In this way, we quickly built more than 100 components.\n\nAt the moment, the vattenfall.nl site is built entirely with these components and the self-service (Angular) applications for consumers and the business market are largely used. of the SASS styling library and Angular components.",
+        "highlights.0": "Migration self-service portal B2C from AngularJS to Angular",
+        "highlights.1": "Introduction to Web Components & Micro Front-ends",
+        "highlights.2": "Insight into consumption for consumers",
+        "highlights.3": "CI / CD pipelines in Azure DevOps",
+        "highlights.4": "Construction and delivery Vattenfall Frontend Component library",
+        "highlights.5": "Work on B2B business portal"
+      },
+      "PFM2018": {
+        "position": "Full stack developer",
+        "summary": "PFM specializes in visitor counting systems, data analysis & interpretation of data.\nPFM measures visitors in shops & shopping centers 24 hours a day. The portfolio of PFM includes 35,000 shops, 450 shopping centers and more than 600 streets.\n\nFor PFM I have set up a new backend (PHP Slim 3 Framework) and frontend (Angular) for the management of sites and connected devices, monitoring of data feeds and a portal for reporting to customers.\n\nFor continuous integration I have used CircleCi Deployments are made to Amazon Web Services (EC2, Load balancer, S3, Kinesis, Lambda, RDS, Cloudfront & Cloud formation) Access and Identity management is realized with Auth0\n\nTechniek\nJavascript - Typescript - AngularJS - Angular - Angular-cli - HTML5 - CSS3 - LESS - Clarity Design system - ECharts - Google maps API - Auth0 - NPM - YARN - GIT - AWS: Cloud Formation, Kinesis, Lamda's, API Gateway, EC2, Load balancers, S3, RDS, Cloudfront - CircleCI - PHP Slim 3 Framework ",
+
+        "highlights.0": "Setup Angular front-end and CI / CD pipelines",
+        "highlights.1": "Setup backend in PHP 7 with SLIM 3 framework",
+        "highlights.2": "Created repository for models (based on schemas and typescript interfaces)",
+        "highlights.3": "Authentication for customers through Auth0",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "sanoma2017": {
+        "position": "Frontend developer",
+        "summary": "Sanomalearning's brand portfolio includes learning companies in 5 European countries, among the best in their national markets.\n\n All projects within those five operating companies use generic components for their digital learning solutions and platforms .\n\nAt this team I am responsible for the generic frontend components, which were developed in AngularJS and Angular.\n\nI also built the frontend for the SAM safety application at Malmberg Publishing, also based on the generic frontend components.\n\nTechnique\nJavascript - Typescript - AngularJS - Angular - Angular cli - HTML5 - CSS3 - LESS - SASS - YARN - GIT - AWS - CircleCI ",
+        "highlights.0": "Generic component library",
+        "highlights.1": "Build training app SAM Safety",
+        "highlights.2": "Migration from AngularJS to Angular",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "netmatic": {
+        "position": "Owner",
+        "summary": "Online applications. Websites, game based learning, E-mail marketing & events\n\nHeineken, ROC, Grolsch, Cultuurfabriek, Belastingdienst, Lowlands, SNS, Cinekid, FNV Bondgenoten.",
+        "highlights.0": "",
+        "highlights.1": "",
+        "highlights.2": "",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "companywebcast2014": {
+        "position": "Full stack developer",
+        "summary": "The unique thing about the user-friendly RoyalCast Webcast platform is that you don't need any technical knowledge and / or IT support to start creating, broadcasting and recording Webcasts.\n\nAfter the RoyalCast Encoder is installed and you After a short training, you can get started immediately via the online RoyalCast Manager The RoyalCast Manager offers you the possibility to 'schedule', produce and view management webcasts online.\n\nA Webcast can be created within seconds. created and you can choose to enrich it with, for example, information about the speaker and the subject.You can also add PowerPoint slides, attachments, documents or links to a Webcast.\n\nAfter the Webcast has been created, you only have to but start and stop.\n\nTechniek\njavascript - angularjs - HTML5 - CSS3 - LESS - NPM - GRUNT - SVN - PHP ",
+        "highlights.0": "Complete self-service solution for creating and managing webcasts",
+        "highlights.1": "Notification service for e-mail, iCal and SMS",
+        "highlights.2": "API integrations with the Company webcast API platform",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "companyWebcastWebinar2014": {
+        "position": "Frontend developer",
+
+        "summary": "Webcast portal for broadcasts of meetings by local authorities of more than 70 Dutch municipalities. Webcast portal for 70 municipalities in one codebase. Based on the 'wildcard' url, the right portal is selected for a customer.\n\nEach portal has its own logo and color accents through a CSS preprocessor theme. ",
+        "highlights.0": "Build webcast portal with API integration and search functions",
+        "highlights.1": "Theme for individual municipalities (logo, color, etc.)",
+        "highlights.2": "Responsive design",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "liveUitvaart": {
+        "position": "Full stack Developer",
+        "summary": "The first Webcast platform that makes it possible to Webcast funeral services on a very large scale, highly automated and at very low cost. We are proud that Liveuitvaart.nl is the winner of the International Funeral Award\n\nLiveUitvaart.nl is not only a technical platform that enables the live and / or on-demand broadcasting of funeral services on a large scale; it is also a proven unique method that guarantees success: after all, 70% of the surviving relatives make use of the option of LiveUitvaart. .nl can watch the broadcast live or afterwards.\n\nIn addition, LiveUitvaart.nl also offers the possibility to download the funeral service (even in HD quality) This download can replace the DVD that often has to be made on location. of the funeral service can be delivered in combination with an integrated webshop.As a funeral home, you can ensure that the next of kin can make use of the union excellent and innovative services from LiveUitvaart.nl. ",
+        "highlights.0": "Build website with API integrations",
+        "highlights.1": "Extensive webast manager for funeral homes",
+        "highlights.2": "Advanced mail and notification service",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "onlineInschrijven": {
+        "position": "Full stack Developer",
+        "summary": "Online registration is an online communication tool, which can do a lot and yet excels in user-friendliness. Online registration supports all facets of your communication process and offers the possibility to centrally manage forms and data. This makes the communication process more transparent, flexible and more efficient.\n\nOnline registration is a solution for event organizers, educational institutions, SME entrepreneurs, PR and event agencies, festivals, cultural institutions, associations and foundations.\n\nTechnique\njavascript - HTML5 - CSS3 - SASS - Angular - NPM - GRUNT - git - PHP ",
+        "highlights.0": "Build frontend AngularJS and Backend PHP",
+        "highlights.1": "Advanced form and campaign editor",
+        "highlights.2": "Personalized invitations, access codes and responses",
+        "highlights.3": "API integrations with MailGun",
+        "highlights.4": "CI / CD with Amazon Web Services",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "athand2012": {
+        "position": "Contractor and partner",
+        "summary": "Game base learning, retail activation, events, apps, photo & video marketing.\n\nKPN, Volkswagen, Vodafone, Cultuurfabriek, Municipality of Almere, Orange, Dutch Tax Authorities, Dutch Railways, Samsung.",
+        "highlights.0": "",
+        "highlights.1": "",
+        "highlights.2": "",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "belastingdienst2011": {
+        "position": "Full stack developer",
+
+        "summary": "600 employees of the Tax and Customs Administration in diverse groups on an expedition in and around Rotterdam city and port, Arnhem and Amsterdam. The Tax and Customs Administration would like to have an open conversation with companies and organizations, with entrepreneurs, employees and citizens about matters that They are up to date and relevant to them and for the Tax Authorities. It concerns our annual M-day: the management and employee day.\n\nTwo years ago this formula was a great success in The Hague and last year in Amsterdam. discover what is going on at the nearly 200 organizations we visit in and around Rotterdam on April 11. A new element this year is that a number of routes throughout the day are all about one theme, such as enforcement and supervision. , Collaboration, but also Urban Development and New Economies.\n\nTechniek\njavascript - handlebars - HTML5 - CSS3 - LESS - NPM - GRUNT - SVN - PHP ",
+        "highlights.0": "Mobile friendly application",
+        "highlights.1": "Automatically calculate most optimal routes",
+        "highlights.2": "Communication platform and route assistance during 'expedition' days",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "teacher2002": {
+        "position": "Docent",
+        "summary": "HKU Hilversum Interaction design, Gerrit Rietveld academie",
+        "highlights.0": "",
+        "highlights.1": "",
+        "highlights.2": "",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      },
+      "tv30002001": {
+        "position": "Business owner",
+        "summary": "Full service internet agency. Pioneer in the field of websites, events, broadcasting & online applications.\n\nHeineken, ROC, Cultuurfabriek, Lowlands, Delta Lloyd, Pink Roccade, Nationale Nederlanden",
+        "highlights.0": "",
+        "highlights.1": "",
+        "highlights.2": "",
+        "highlights.3": "",
+        "highlights.4": "",
+        "highlights.5": "",
+        "highlights.6": ""
+      }
+    }
+  }
+}

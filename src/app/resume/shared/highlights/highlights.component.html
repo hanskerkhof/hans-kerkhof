@@ -1,0 +1,8 @@
+<div *ngIf="highlightItems.length" class="mb-4">
+  <h4>{{ "resume.highlights" | translate }}</h4>
+  <ul>
+    <ng-container *ngFor="let highlight of highlightItems">
+      <li *ngIf="highlight">{{ highlight }}</li>
+    </ng-container>
+  </ul>
+</div>

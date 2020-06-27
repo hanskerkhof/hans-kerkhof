@@ -1,0 +1,19 @@
+<ng-container *ngFor="let item of section">
+  <!-- prettier-ignore -->
+  <div class="resume-item mb-5">
+    <div class="resume-content">
+      <h3 class="mb-0">{{item.name[language] || item.name}}</h3>
+      <ng-container *ngIf="item.keywords.length">
+        <ng-container *ngFor="let keyword of item.keywords; let last = last;">
+          {{keyword}}<ng-container *ngIf="!last">, </ng-container>
+        </ng-container>
+      </ng-container>
+    </div>
+  </div>
+
+  <app-resume-skills-logos
+    class="d-print-none"
+    *ngIf="item.displayLogos"
+    [skill]="item"
+  ></app-resume-skills-logos>
+</ng-container>

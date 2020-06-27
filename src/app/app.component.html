@@ -1,0 +1,17 @@
+<app-nav *ngIf="resume" [resume]="resume"></app-nav>
+
+<div
+  class="container-fluid p-0"
+  scrollSpy
+  [spiedTags]="['section']"
+  (sectionChange)="onSectionChange($event)">
+  <app-resume
+    *ngIf="resume"
+    [resume]="resume"
+    [language]="languageService.language"
+  ></app-resume>
+</div>
+
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>

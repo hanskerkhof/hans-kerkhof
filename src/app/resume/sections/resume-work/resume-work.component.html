@@ -1,0 +1,37 @@
+<ng-container *ngFor="let item of section">
+  <!-- prettier-ignore -->
+  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+    <div class="resume-content">
+      <h3 class="mb-0">{{ item.company }}</h3>
+      <div class="subheading mb-3">{{ item.position | translate }}</div>
+      <p class="summary">{{ item.summary | translate }}</p>
+    </div>
+    <div class="resume-date text-md-right">
+      <span class="text-primary">
+        <!-- prettier-ignore -->
+        {{item.startDate | amLocale: language | amDateFormat: "MMMM YYYY"}}
+        -
+        <!-- prettier-ignore -->
+        {{item.endDate ? (item.endDate | amLocale: language | amDateFormat: "MMMM YYYY") : ('resume.present' | translate)}}
+      </span>
+    </div>
+  </div>
+
+  <app-resume-highlights [highlights]="item.highlights"></app-resume-highlights>
+  <div *appShellNoRender>
+    <div *ngIf="item.galleries.length" class="d-print-none mb-5">
+      <h4>{{ "resume.images" | translate }}</h4>
+      <div class="mt-4" *ngFor="let name of item.galleries">
+        <h5>{{ name }}</h5>
+        <app-gallery
+          *ngIf="name"
+          [flexBorderSize]="20"
+          [flexImageSize]="0"
+          [galleryName]="name"
+          [maxRowsPerPage]="10"
+        >
+        </app-gallery>
+      </div>
+    </div>
+  </div>
+</ng-container>

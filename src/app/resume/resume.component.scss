@@ -1,0 +1,16 @@
+:host ::ng-deep {
+  .summary {
+    white-space: pre-wrap;
+  }
+
+  .resume-date {
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+
+  .skills img {
+    max-height: 55px;
+    margin: 10px 20px 10px 0;
+    padding-bottom: 3px;
+  }
+}
