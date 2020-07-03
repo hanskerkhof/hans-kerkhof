@@ -77,7 +77,6 @@
     ],
     "testPathIgnorePatterns": [
       "<rootDir>/cypress/",
-      "<rootDir>/src/ajs/",
       "src/test.ts"
     ]
   }
