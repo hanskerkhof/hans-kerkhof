@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import {NgxMetaTagsModule} from 'ngx-meta-tags';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
@@ -11,7 +13,6 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ResumeModule } from './resume/resume.module';
 import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 import { ScrollSpyDirective } from './scroll-spy.directive';
-import { NgxMetaTagsModule } from '../../projects/ngx-meta-tags/src/lib/ngx-meta-tags.module';
 import { environment } from '../environments/environment';
 
 export function createTranslateLoader(http: HttpClient): TranslateLoader {
