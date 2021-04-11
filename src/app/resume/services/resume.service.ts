@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { Resume } from '../models/resume';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { environment } from '../../../environments/environment';
@@ -21,9 +20,4 @@ export class ResumeService {
   public getResume(): Observable<any> {
     return this.http.get(this.url);
   }
-
-  /* istanbul ignore next */
-  // get resume(): Resume {
-  //   return {};
-  // }
 }
