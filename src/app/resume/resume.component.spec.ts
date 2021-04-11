@@ -1,11 +1,13 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { ResumeComponent } from './resume.component';
-import { NO_ERRORS_SCHEMA } from '@angular/core';
-import { ResumeService } from './services/resume.service';
-import { ResumeStubService } from './services/resume-stub.service';
-import { NgxMetaTagsModule } from '../../../projects/ngx-meta-tags/src/lib/ngx-meta-tags.module';
-import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { TranslateLoaderStub } from '../../../test/stubs/translateStub';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
+import {ResumeComponent} from './resume.component';
+import {NO_ERRORS_SCHEMA} from '@angular/core';
+
+import {NgxMetaTagsModule} from 'ngx-meta-tags';
+
+import {ResumeService} from './services/resume.service';
+import {ResumeStubService} from './services/resume-stub.service';
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import {TranslateLoaderStub} from '../../../test/stubs/translateStub';
 
 const resume: any = require('../../../test/mocks/resume-mock.json');
 
@@ -13,7 +15,7 @@ describe('ResumeComponent', () => {
   let component: ResumeComponent;
   let fixture: ComponentFixture<ResumeComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ResumeComponent],
       imports: [NgxMetaTagsModule.forRoot({}),

@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 
 import { LanguageSwitchComponent } from './language-switch.component';
 import { LanguageService } from '../../_services/language.service';
@@ -9,7 +9,7 @@ describe('LanguageSwitchComponent', () => {
   let component: LanguageSwitchComponent;
   let fixture: ComponentFixture<LanguageSwitchComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [TranslateModule.forRoot({
         loader: {

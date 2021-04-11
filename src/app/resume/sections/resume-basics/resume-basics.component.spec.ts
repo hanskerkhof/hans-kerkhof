@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 import { ResumeBasicsComponent } from './resume-basics.component';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import {
@@ -18,7 +18,7 @@ describe('ResumeBasicsComponent', () => {
   let component: ResumeBasicsComponent;
   let fixture: ComponentFixture<ResumeBasicsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [
         TranslateModule.forRoot({

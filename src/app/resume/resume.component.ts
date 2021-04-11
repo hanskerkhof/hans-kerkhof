@@ -1,7 +1,7 @@
-import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
-import { Resume } from './models/resume';
-import { NgxMetaTagsService } from '../../../projects/ngx-meta-tags/src/lib/ngx-meta-tags.service';
-import { TranslateService } from '@ngx-translate/core';
+import {Component, Input, OnInit, ViewEncapsulation} from '@angular/core';
+import {Resume} from './models/resume';
+import {TranslateService} from '@ngx-translate/core';
+import {NgxMetaTagsService} from 'ngx-meta-tags';
 
 @Component({
   selector: 'app-resume',

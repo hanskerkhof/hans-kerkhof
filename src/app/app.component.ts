@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
 import { LanguageService } from './_services/language.service';
 import { Resume } from './resume/models/resume';
-import { Title } from '@angular/platform-browser';
 import { ResumeService } from './resume/services/resume.service';
-import { NgxMetaTagsService } from '../../projects/ngx-meta-tags/src/lib/ngx-meta-tags.service';
-// import { NgxMetaTagsService } from '../../projects/ngx-meta-tags/src/lib/ngx-meta-tags.service';
 
 @Component({
   selector: 'app-root',

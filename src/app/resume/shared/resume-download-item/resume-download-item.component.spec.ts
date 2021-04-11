@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 import { ResumeDownloadItemComponent } from './resume-download-item.component';
 import { ResumeMimeToFaIconPipe } from '../../pipes/resume-mime-to-fa-icon.pipe';
 import { ResumeFileSizePipe } from '../../pipes/resume-file-size.pipe';
@@ -8,7 +8,7 @@ describe('ResumeDownloadItemComponent', () => {
   let component: ResumeDownloadItemComponent;
   let fixture: ComponentFixture<ResumeDownloadItemComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         ResumeDownloadItemComponent,

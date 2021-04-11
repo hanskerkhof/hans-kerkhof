@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 
 import { ResumeEducationComponent } from './resume-education.component';
 import { MomentModule } from 'ngx-moment';
@@ -9,7 +9,7 @@ describe('ResumeEducationComponent', () => {
   let component: ResumeEducationComponent;
   let fixture: ComponentFixture<ResumeEducationComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [
         MomentModule,

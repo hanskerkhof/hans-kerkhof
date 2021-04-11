@@ -43,7 +43,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -171,46 +170,7 @@
           }
         }
       }
-    },
-    "ngx-meta-tags": {
-      "projectType": "library",
-      "root": "projects/ngx-meta-tags",
-      "sourceRoot": "projects/ngx-meta-tags/src",
-      "prefix": "lib",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
-          "options": {
-            "tsConfig": "projects/ngx-meta-tags/tsconfig.lib.json",
-            "project": "projects/ngx-meta-tags/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/ngx-meta-tags/tsconfig.lib.prod.json"
-            }
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/ngx-meta-tags/src/test.ts",
-            "tsConfig": "projects/ngx-meta-tags/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-meta-tags/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ngx-meta-tags/tsconfig.lib.json",
-              "projects/ngx-meta-tags/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        }
-      }
-    }},
+    }
+  },
   "defaultProject": "hanskerkhof"
 }
