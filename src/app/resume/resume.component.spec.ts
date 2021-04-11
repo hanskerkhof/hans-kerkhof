@@ -1,4 +1,4 @@
-import {async, ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 import {ResumeComponent} from './resume.component';
 import {NO_ERRORS_SCHEMA} from '@angular/core';
 

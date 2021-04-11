@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 import { ResumeSectionsComponent } from './resume-sections.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 const resume: any = require('../../../../test/mocks/resume-mock.json');

@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed, waitForAsync} from '@angular/core/testing';
 
 import { ResumeWorkComponent } from './resume-work.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
