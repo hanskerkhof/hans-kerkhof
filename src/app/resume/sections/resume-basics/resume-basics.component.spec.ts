@@ -18,7 +18,7 @@ describe('ResumeBasicsComponent', () => {
   let component: ResumeBasicsComponent;
   let fixture: ComponentFixture<ResumeBasicsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [
         TranslateModule.forRoot({

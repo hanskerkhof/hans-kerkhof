@@ -10,7 +10,7 @@ describe('ResumeWorkComponent', () => {
   let component: ResumeWorkComponent;
   let fixture: ComponentFixture<ResumeWorkComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [
         MomentModule,

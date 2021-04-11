@@ -6,7 +6,7 @@ describe('ResumeReferencesComponent', () => {
   let component: ResumeReferencesComponent;
   let fixture: ComponentFixture<ResumeReferencesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ResumeReferencesComponent],
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('ResumePublicationsComponent', () => {
   let component: ResumePublicationsComponent;
   let fixture: ComponentFixture<ResumePublicationsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ResumePublicationsComponent],
     }).compileComponents();

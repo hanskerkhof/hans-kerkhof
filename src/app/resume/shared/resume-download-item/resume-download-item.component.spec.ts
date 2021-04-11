@@ -8,7 +8,7 @@ describe('ResumeDownloadItemComponent', () => {
   let component: ResumeDownloadItemComponent;
   let fixture: ComponentFixture<ResumeDownloadItemComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         ResumeDownloadItemComponent,

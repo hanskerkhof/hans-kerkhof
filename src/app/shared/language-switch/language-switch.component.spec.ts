@@ -9,7 +9,7 @@ describe('LanguageSwitchComponent', () => {
   let component: LanguageSwitchComponent;
   let fixture: ComponentFixture<LanguageSwitchComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [TranslateModule.forRoot({
         loader: {

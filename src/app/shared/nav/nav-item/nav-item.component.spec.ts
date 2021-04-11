@@ -6,7 +6,7 @@ describe('NavItemComponent', () => {
   let component: NavItemComponent;
   let fixture: ComponentFixture<NavItemComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [NavItemComponent],
     }).compileComponents();

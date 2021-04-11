@@ -10,7 +10,7 @@ describe('HighlightsComponent', () => {
   let component: ResumeHighlightsComponent;
   let fixture: ComponentFixture<ResumeHighlightsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [
         TranslateModule.forRoot({

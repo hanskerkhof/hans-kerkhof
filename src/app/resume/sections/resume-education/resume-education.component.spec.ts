@@ -9,7 +9,7 @@ describe('ResumeEducationComponent', () => {
   let component: ResumeEducationComponent;
   let fixture: ComponentFixture<ResumeEducationComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [
         MomentModule,

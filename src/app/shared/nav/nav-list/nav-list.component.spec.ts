@@ -7,7 +7,7 @@ describe('NavListComponent', () => {
   let component: NavListComponent;
   let fixture: ComponentFixture<NavListComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [NavListComponent],
       schemas: [NO_ERRORS_SCHEMA],

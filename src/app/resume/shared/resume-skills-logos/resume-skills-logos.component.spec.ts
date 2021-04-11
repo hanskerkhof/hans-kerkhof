@@ -6,7 +6,7 @@ describe('ResumeSkillsLogosComponent', () => {
   let component: ResumeSkillsLogosComponent;
   let fixture: ComponentFixture<ResumeSkillsLogosComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ResumeSkillsLogosComponent],
     }).compileComponents();

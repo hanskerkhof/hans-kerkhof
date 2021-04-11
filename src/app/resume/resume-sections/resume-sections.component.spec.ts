@@ -7,7 +7,7 @@ describe('ResumeSectionsComponent', () => {
   let component: ResumeSectionsComponent;
   let fixture: ComponentFixture<ResumeSectionsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ResumeSectionsComponent],
       schemas: [CUSTOM_ELEMENTS_SCHEMA],

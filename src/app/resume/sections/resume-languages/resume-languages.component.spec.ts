@@ -6,7 +6,7 @@ describe('ResumeLanguagesComponent', () => {
   let component: ResumeLanguagesComponent;
   let fixture: ComponentFixture<ResumeLanguagesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ResumeLanguagesComponent],
     }).compileComponents();
