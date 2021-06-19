@@ -45,7 +45,6 @@
       "PFM2018": {
         "position": "Full stack developer",
         "summary": "PFM specializes in visitor counting systems, data analysis & interpretation of data.\nPFM measures visitors in shops & shopping centers 24 hours a day. The portfolio of PFM includes 35,000 shops, 450 shopping centers and more than 600 streets.\n\nFor PFM I have set up a new backend (PHP Slim 3 Framework) and frontend (Angular) for the management of sites and connected devices, monitoring of data feeds and a portal for reporting to customers.\n\nFor continuous integration I have used CircleCi Deployments are made to Amazon Web Services (EC2, Load balancer, S3, Kinesis, Lambda, RDS, Cloudfront & Cloud formation) Access and Identity management is realized with Auth0\n\nTechniek\nJavascript - Typescript - AngularJS - Angular - Angular-cli - HTML5 - CSS3 - LESS - Clarity Design system - ECharts - Google maps API - Auth0 - NPM - YARN - GIT - AWS: Cloud Formation, Kinesis, Lamda's, API Gateway, EC2, Load balancers, S3, RDS, Cloudfront - CircleCI - PHP Slim 3 Framework ",
-
         "highlights.0": "Setup Angular front-end and CI / CD pipelines",
         "highlights.1": "Setup backend in PHP 7 with SLIM 3 framework",
         "highlights.2": "Created repository for models (based on schemas and typescript interfaces)",
